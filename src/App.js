@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import Auth from './components/Auth/Auth';
 // import logo from './logo.svg';
+import MovieFlix from './components/MovieFlix/MovieFlix';
 
 
 function App() {
@@ -9,9 +10,7 @@ console.log(sessionToken);
 
   return (
     <div className="App">
-
-  
-     <Auth />
+      <MovieFlix />
     </div>
   );
 }
